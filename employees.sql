@@ -1,0 +1,1 @@
+CREATE TABLE `employees`.`employee_data` ( `employeeID` INT NOT NULL AUTO_INCREMENT , `employee_name` VARCHAR(150) NOT NULL , `email` VARCHAR(150) NOT NULL , `job` VARCHAR(150) NOT NULL , `salary` DECIMAL NOT NULL , `gender` BOOLEAN NOT NULL , PRIMARY KEY (`employeeID`)) ENGINE = InnoDB;
